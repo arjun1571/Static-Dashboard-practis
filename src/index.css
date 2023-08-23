@@ -17,3 +17,31 @@
 .progress-round::before {
     content: "75%";
   }
+  .container {
+    background-color: rgb(209, 213, 213);
+    border-radius: 50px;
+  }
+  
+  .barCompleted {
+    background-color: rgb(85, 45, 230);
+    border-radius: 50px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .label {
+    font-size: 20px;
+    color: white;
+  }
+  .barCompleted1 {
+    background-color: rgb(85, 45, 230);
+    border-radius: 50px;
+    width: 40%;
+    text-align: center;
+  }
+  .barCompleted2 {
+    background-color: rgb(85, 45, 230);
+    border-radius: 50px;
+    width: 50%;
+    text-align: center;
+  }

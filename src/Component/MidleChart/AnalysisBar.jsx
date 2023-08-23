@@ -30,13 +30,61 @@ const AnalysisBar = () => {
             </div>
           </div>
           <div className="rounded-2xl mx-5  ">
-            <ProgressBar completed={80} className="w-80 mt-4 h-8" />
-            <ProgressBar completed={20} className="w-80 mt-4 h-8" />
-            <ProgressBar completed={50} className="w-80 mt-4 h-8" />
-            <ProgressBar completed={70} className="w-80 mt-4 h-8" />
-            <ProgressBar completed={90} className="w-80 mt-4 h-8" />
-            <ProgressBar completed={50} className="w-80 mt-4 h-8" />
-            <ProgressBar completed={70} className="w-80 mt-4 h-8" />
+            <ProgressBar
+              barContainerClassName="container"
+              completedClassName="barCompleted"
+              labelClassName="label"
+              completed={80}
+              className="w-72 mt-4 h-8 custom"
+            />
+            <ProgressBar
+              barContainerClassName="container"
+              completedClassName="barCompleted1"
+              labelClassName="label"
+              completed={40}
+              className="w-72 mt-4 h-8 custom"
+            />
+            <ProgressBar
+              barContainerClassName="container"
+              completedClassName="barCompleted"
+              labelClassName="label"
+              completed={80}
+              className="w-72 mt-4 h-8 custom"
+            />
+            <ProgressBar
+              barContainerClassName="container"
+              completedClassName="barCompleted2"
+              labelClassName="label"
+              completed={80}
+              className="w-72 mt-4 h-8 custom"
+            />
+            <ProgressBar
+              barContainerClassName="container"
+              completedClassName="barCompleted"
+              labelClassName="label"
+              completed={80}
+              className="w-72 mt-4 h-8 custom"
+            />
+            <ProgressBar
+              barContainerClassName="container"
+              completedClassName="barCompleted"
+              labelClassName="label"
+              completed={80}
+              className="w-72 mt-4 h-8 custom"
+            />
+            <ProgressBar
+              barContainerClassName="container"
+              completedClassName="barCompleted"
+              labelClassName="label"
+              completed={80}
+              className="w-72 mt-4 h-8 custom"
+            />
+            {/* <ProgressBar completed={20} className="w-72 mt-4 h-8" />
+            <ProgressBar completed={50} className="w-72 mt-4 h-8" />
+            <ProgressBar completed={70} className="w-72 mt-4 h-8" />
+            <ProgressBar completed={90} className="w-72 mt-4 h-8" />
+            <ProgressBar completed={50} className="w-72 mt-4 h-8" />
+            <ProgressBar completed={70} className="w-72 mt-4 h-8" /> */}
           </div>
         </div>
       </div>

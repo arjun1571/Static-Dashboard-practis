@@ -30,8 +30,8 @@ const LeftSide = () => {
           <h1 className="mx-3">Setting</h1>
         </div>
         <div className="flex items-center text-2xl mx-5 mt-96 py-10">
-          <FaPowerOff className="" />
-          <h1 className="mx-3">LogOut</h1>
+          <FaPowerOff className="absolute bottom-0" />
+          <h1 className="mx-8 absolute bottom-0">LogOut</h1>
         </div>
       </div>
     </div>
